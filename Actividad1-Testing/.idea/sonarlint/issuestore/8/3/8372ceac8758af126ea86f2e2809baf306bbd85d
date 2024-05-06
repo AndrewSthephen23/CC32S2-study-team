@@ -1,0 +1,6 @@
+
+“
+java:S1206)"PThis class overrides "equals()" and should therefore also override "hashCode()".(Ú¶±ª8‰£‹Öô1J$50eb0f58-7913-46a9-8c7f-144935a48ab4
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(¯ê§Òøÿÿÿÿ8Œ£‹Öô1J$2c583a42-ec6c-409f-9f90-e8197ef386a9
+‡
+java:S6201*"DReplace this instanceof check and cast with 'instanceof Money money'(–þ–î8‘£‹Öô1J$2a876409-69bd-4255-9866-6e68b1a5ff40
