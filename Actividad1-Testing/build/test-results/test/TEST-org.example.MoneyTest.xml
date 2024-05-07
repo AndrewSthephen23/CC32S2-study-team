@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.example.MoneyTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-06T02:27:48" hostname="DESKTOP-AURCIQN" time="0.062">
-  <properties/>
-  <testcase name="constructorShouldSetAmountAndCurrency()" classname="org.example.MoneyTest" time="0.062"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
