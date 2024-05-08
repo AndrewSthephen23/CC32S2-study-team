@@ -1,47 +1,39 @@
 package microwave;
 import java.util.List;
-
+// Clase que representa a un microondas
 public class Microwave {
-	private ModeController mc;
-	private DisplayController dc;
-	List<Preset> presets; 
-	private int powerLevel; 
+	private ModeController mc; // Controlador de modos
+	private DisplayController dc; // Controlador de display
+	List<Preset> presets; // Lista de presets
+	private int powerLevel; // Nivel de potencia
 
-	private boolean doorOpen, cooking;
-	private ModeController.Mode mode = ModeController.Mode.Setup;
-
+	private boolean doorOpen, cooking; // Estado de la puerta y de cocción
+	private Mode mode = Mode.Setup; // Modo actual
+	//Constructor del microondas
 	public Microwave(ModeController mc, DisplayController dc, 
 			List<Preset> presets) {
 		this.mc = mc;
 		this.dc = dc;
 		cooking = false;
-		doorOpen = true; // start in fail-safe state.
+		doorOpen = true; // Se inicia en estado de seguridad
 		this.presets = presets;
 	}
-	
-//	public void zeroPressed() { dc.digitPressed(0); }
-//	public void onePressed() { dc.digitPressed(1); }
-//	public void twoPressed() { dc.digitPressed(2); }
-//	public void threePressed() { dc.digitPressed(3); }
-//	public void fourPressed() { dc.digitPressed(4); }
-//	public void fivePressed() { dc.digitPressed(5); }
-//	public void sixPressed() { dc.digitPressed(6); }
-//	public void sevenPressed() { dc.digitPressed(7); }
-//	public void eightPressed() { dc.digitPressed(8); }
-//	public void ninePressed() { dc.digitPressed(9); }
+
+	//Metodo para presionar el boton de inicio
 	public void startPressed() { mc.setStartPressed(true); }
+	//Metodo para presionar el boton de limpiar
 	public void clearPressed() { mc.setClearPressed(true); 
 								 dc.clearKeyPressed(mc.getMode()); }
-
+	// Método para presionar un dígito
 	public void digitPressed(int digit) {
 		dc.digitPressed(digit);
 	}
-	
+	// Método para presionar un preset
 	public void presetPressed(int preset) {
 		if (preset < 1 || preset > presets.size()) {
 			throw new IllegalArgumentException("Preset out of range for presetPressed.");
 		}
-		if (mode != ModeController.Mode.Setup) {
+		if (mode != Mode.Setup) {
 			throw new IllegalArgumentException("Presets can only be used in setup mode");
 		}
 		// Seeded fault here
@@ -50,9 +42,9 @@ public class Microwave {
 		dc.setTimeToCook(p.getTimeToCook());
 		setPowerLevel(p.getPowerLevel());
 	}
-
+	// Método para establecer si la puerta está abierta o cerrada
 	public void setDoorOpen(boolean doorOpen) { this.doorOpen = doorOpen; }
-	
+	// Método para establecer el nivel de potencia
 	public void setPowerLevel(int powerLevel) { 
 		if (powerLevel >= 1 && powerLevel <= 10) {
 			this.powerLevel = powerLevel; 
@@ -60,29 +52,29 @@ public class Microwave {
 			throw new IllegalArgumentException("power level out of range");
 		}
 	}
-	
+	// Método para obtener el nivel de potencia
 	public int getPowerLevel() {
 		return this.powerLevel; 
 	}
-	
+	// Método para verificar si la puerta está abierta
 	public boolean isDoorOpen() {
 		return doorOpen;
 	}
-
+	// Método de simulación del tiempo
 	public void tick() {
 		dc.tick(mode);
 		mode = mc.tick(doorOpen, dc.timeToCook() != 0);
-		cooking = (mode == ModeController.Mode.Cooking);
+		cooking = (mode == Mode.Cooking);
 	}
-	
+	// Método para verificar si está cocinando
 	public boolean isCooking() { return cooking; }
 	
-	// should I make a copy of this?
-	public byte [] digits() { return dc.getDigits(); } ; 
-	
-	public ModeController.Mode getMode() { return mode; }
-	
+	// Método para obtener los dígitos del display
+	public byte [] digits() { return dc.getDigits(); } ;
+	// Método para obtener el modo actual
+	public Mode getMode() { return mode; }
+	// Método para obtener la tasa de refresco del display
 	public int getTickRateInHz() { return dc.getTickRateInHz(); }
-	
+	// Método para establecer la tasa de refresco del display
 	public void setTickRateInHz(int tickRate) { dc.setTickRateInHz(tickRate); }
 }

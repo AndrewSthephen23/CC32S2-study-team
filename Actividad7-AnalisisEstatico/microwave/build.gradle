@@ -53,11 +53,16 @@ dependencies {
     implementation 'com.google.guava:guava:31.0.1-jre'
 
     // Using JUnit 5 (latest), note the changes in dependency classification
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.7.2'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+
+    // For backward compatibility with JUnit 4 tests
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.junit.vintage:junit-vintage-engine:5.8.2'
 
     // Cucumber dependencies updated and using the latest version with JUnit 5 support
-    testImplementation 'io.cucumber:cucumber-java:6.10.4'
-    testImplementation 'io.cucumber:cucumber-junit:6.10.4'
+    testImplementation 'io.cucumber:cucumber-java:7.16.1'
+    testImplementation 'io.cucumber:cucumber-junit:7.16.1'
 
 }
 
@@ -84,9 +89,9 @@ sonar {
 
 sonar {
     properties {
-        property "sonar.projectKey", "ayudantias_microwave"
-        property "sonar.organization", "ayudantias"
-        property "sonar.token", ""
-        property "sonar.host.url", "https://sonarcloud.io"
+        property "sonar.projectKey", "CodigoEstatico"
+        property "sonar.login", "sqp_d6fd556e42365278dbb4d27325313fe7b808bf63"
+        property "sonar.host.url", "http://localhost:9000"
     }
 }
+

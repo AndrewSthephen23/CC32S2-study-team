@@ -27,15 +27,6 @@ interval elapses, a tick() method is called on the microwave, which updates its 
        | cup of soup   |  60        | 5          |
     And polling rate is 20 ms   
 
-  Scenario: A table illustration 
-    Given foobars are 
-       | name          | timeToCook | blah | 
-       | popcorn       |  55        | de   |
-       | pizza slice   |  30        | blah | 
-       | cup of coffee |  65        | de   |
-       | cup of soup   |  60        | blah |
-    
-
   Scenario: Mike reheats a cookie for 1 second
     Given Mike presses the 2 key 
     And Mike presses the 0 key
@@ -46,7 +37,10 @@ interval elapses, a tick() method is called on the microwave, which updates its 
 
 
   Scenario: Bob reheats a coffee for 3 seconds
-    Given Bob presses the following keys: 1 5 3
+    Given Bob presses the following keys as a table:
+     |1|
+     |5|
+     |3|
     When Bob presses the start key
     And 3 seconds elapse
     Then digits reads 0150
@@ -74,9 +68,9 @@ interval elapses, a tick() method is called on the microwave, which updates its 
 
   Examples:
     | time | digits     | mode    | 
-    | 5    | 0008       | cooking |
-    | 10   | 0000       | cooking |
-    | 19   | 0000       | cooking |
+    | 5    | 0015       | cooking |
+    | 10   | 0010       | cooking |
+    | 19   | 0001       | cooking |
     | 20   | 0000       | setup   |
     | 21   | 0000       | setup   |
 

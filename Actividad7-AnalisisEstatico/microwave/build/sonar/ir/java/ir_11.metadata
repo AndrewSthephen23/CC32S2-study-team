@@ -1,3 +1,0 @@
-microwave.DisplayController#setDigits([B)V
-java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)V
-java.lang.IllegalArgumentException#instance-init#

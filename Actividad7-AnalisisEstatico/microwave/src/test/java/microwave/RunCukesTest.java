@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RunWith(Cucumber.class)
-//@CucumberOptions(plugin = {"pretty"})
+@CucumberOptions //(plugin = {"pretty"})
 public class RunCukesTest {
 
     public RunCukesTest() {

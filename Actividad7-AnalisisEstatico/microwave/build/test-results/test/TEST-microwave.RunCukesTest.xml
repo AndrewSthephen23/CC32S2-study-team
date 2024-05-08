@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="microwave.RunCukesTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2024-05-08T07:46:35" hostname="DESKTOP-AURCIQN" time="0.32">
+  <properties/>
+  <testcase name="Mike reheats a cookie for 1 second" classname="microwave.RunCukesTest" time="0.227"/>
+  <testcase name="Bob reheats a coffee for 3 seconds" classname="microwave.RunCukesTest" time="0.011"/>
+  <testcase name="Bob reheats a coffee again for 3 seconds" classname="microwave.RunCukesTest" time="0.006"/>
+  <testcase name="Cooking for different amounts of time. #1" classname="microwave.RunCukesTest" time="0.009"/>
+  <testcase name="Cooking for different amounts of time. #2" classname="microwave.RunCukesTest" time="0.007"/>
+  <testcase name="Cooking for different amounts of time. #3" classname="microwave.RunCukesTest" time="0.008"/>
+  <testcase name="Cooking for different amounts of time. #4" classname="microwave.RunCukesTest" time="0.009"/>
+  <testcase name="Cooking for different amounts of time. #5" classname="microwave.RunCukesTest" time="0.009"/>
+  <testcase name="Trying out a preset." classname="microwave.RunCukesTest" time="0.009"/>
+  <testcase name="Preset out of range" classname="microwave.RunCukesTest" time="0.005"/>
+  <testcase name="Mode incorrect for preset" classname="microwave.RunCukesTest" time="0.005"/>
+  <testcase name="User interrupts cooking" classname="microwave.RunCukesTest" time="0.006"/>
+  <system-out><![CDATA[Preset [name=popcorn, timeToCook=55, powerLevel=10]
+Preset [name=pizza slice, timeToCook=30, powerLevel=5]
+Preset [name=cup of coffee, timeToCook=65, powerLevel=10]
+Preset [name=cup of soup, timeToCook=60, powerLevel=5]
+0
+0
+1
+9
+Preset [name=popcorn, timeToCook=55, powerLevel=10]
+Preset [name=pizza slice, timeToCook=30, powerLevel=5]
+Preset [name=cup of coffee, timeToCook=65, powerLevel=10]
+Preset [name=cup of soup, timeToCook=60, powerLevel=5]
+0
+1
+5
+0
+Preset [name=popcorn, timeToCook=55, powerLevel=10]
+Preset [name=pizza slice, timeToCook=30, powerLevel=5]
+Preset [name=cup of coffee, timeToCook=65, powerLevel=10]
+Preset [name=cup of soup, timeToCook=60, powerLevel=5]
+0
+1
+5
+0
+Preset [name=popcorn, timeToCook=55, powerLevel=10]
+Preset [name=pizza slice, timeToCook=30, powerLevel=5]
+Preset [name=cup of coffee, timeToCook=65, powerLevel=10]
+Preset [name=cup of soup, timeToCook=60, powerLevel=5]
+0
+0
+1
+5
+Preset [name=popcorn, timeToCook=55, powerLevel=10]
+Preset [name=pizza slice, timeToCook=30, powerLevel=5]
+Preset [name=cup of coffee, timeToCook=65, powerLevel=10]
+Preset [name=cup of soup, timeToCook=60, powerLevel=5]
+0
+0
+1
+0
+Preset [name=popcorn, timeToCook=55, powerLevel=10]
+Preset [name=pizza slice, timeToCook=30, powerLevel=5]
+Preset [name=cup of coffee, timeToCook=65, powerLevel=10]
+Preset [name=cup of soup, timeToCook=60, powerLevel=5]
+0
+0
+0
+1
+Preset [name=popcorn, timeToCook=55, powerLevel=10]
+Preset [name=pizza slice, timeToCook=30, powerLevel=5]
+Preset [name=cup of coffee, timeToCook=65, powerLevel=10]
+Preset [name=cup of soup, timeToCook=60, powerLevel=5]
+0
+0
+0
+0
+Preset [name=popcorn, timeToCook=55, powerLevel=10]
+Preset [name=pizza slice, timeToCook=30, powerLevel=5]
+Preset [name=cup of coffee, timeToCook=65, powerLevel=10]
+Preset [name=cup of soup, timeToCook=60, powerLevel=5]
+0
+0
+0
+0
+Preset [name=popcorn, timeToCook=55, powerLevel=10]
+Preset [name=pizza slice, timeToCook=30, powerLevel=5]
+Preset [name=cup of coffee, timeToCook=65, powerLevel=10]
+Preset [name=cup of soup, timeToCook=60, powerLevel=5]
+0
+0
+5
+0
+Preset [name=popcorn, timeToCook=55, powerLevel=10]
+Preset [name=pizza slice, timeToCook=30, powerLevel=5]
+Preset [name=cup of coffee, timeToCook=65, powerLevel=10]
+Preset [name=cup of soup, timeToCook=60, powerLevel=5]
+Preset [name=popcorn, timeToCook=55, powerLevel=10]
+Preset [name=pizza slice, timeToCook=30, powerLevel=5]
+Preset [name=cup of coffee, timeToCook=65, powerLevel=10]
+Preset [name=cup of soup, timeToCook=60, powerLevel=5]
+Preset [name=popcorn, timeToCook=55, powerLevel=10]
+Preset [name=pizza slice, timeToCook=30, powerLevel=5]
+Preset [name=cup of coffee, timeToCook=65, powerLevel=10]
+Preset [name=cup of soup, timeToCook=60, powerLevel=5]
+0
+0
+5
+0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

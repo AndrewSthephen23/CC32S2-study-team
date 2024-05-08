@@ -1,7 +1,6 @@
-organization=ayudantias
-projectKey=ayudantias_microwave
-serverUrl=https://sonarcloud.io
-serverVersion=8.0.0.53909
-dashboardUrl=https://sonarcloud.io/dashboard?id=ayudantias_microwave
-ceTaskId=AY8Jqgd7USVGAeGoB_eO
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AY8Jqgd7USVGAeGoB_eO
+projectKey=CodigoEstatico
+serverUrl=http://localhost:9000
+serverVersion=9.9.5.90363
+dashboardUrl=http://localhost:9000/dashboard?id=CodigoEstatico
+ceTaskId=AY9U0OiReEyU64undYTi
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AY9U0OiReEyU64undYTi
