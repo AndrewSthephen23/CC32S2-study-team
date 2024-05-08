@@ -7,3 +7,5 @@ Y
 )src/main/java/com/wordz/domain/Score.java,7\2\72117fc31e2a89f51374544b0d88a84479215c87
 Z
 *src/main/java/com/wordz/domain/Letter.java,5\7\57d7900b832b7a33c5fb25944dd39a232dc10f24
+<
+build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
