@@ -1,0 +1,30 @@
+plugins {
+    id 'java'
+    id "org.sonarqube" version "3.5.0.2730"
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+    testImplementation 'org.assertj:assertj-core:3.22.0'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+// Configuración de SonarQube
+sonarqube {
+    properties {
+        property "sonar.projectKey", "p2sprint"
+        property "sonar.login", "sqp_494a43135132b9b352f6600963176c8307c20a7c"
+        property "sonar.host.url", "http://127.0.0.1:9000"
+    }
+}
