@@ -1,7 +1,8 @@
 plugins {
     id 'java'
 }
-
+// Apply the java-library plugin to add support for Java Library
+apply plugin: 'java-library'
 group 'com.wordz'
 version '1.0-SNAPSHOT'
 
@@ -17,4 +18,31 @@ dependencies {
 
 test {
     useJUnitPlatform()
+    testLogging {
+        events "passed", "skipped", "failed"
+        showStandardStreams = true
+    }
+}
+
+dependencies {
+    // This dependency is exported to consumers, that is to say found on their compile classpath.
+    api 'org.apache.commons:commons-math3:3.6.1'
+
+    // This dependency is used internally, and not exposed to consumers on their own compile classpath.
+    implementation 'com.google.guava:guava:33.1.0-jre'
+
+    // Use JUnit Jupiter API for unit testing with JUnit 5
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testImplementation 'org.junit.jupiter:junit-jupiter-params:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+
+    testImplementation 'org.assertj:assertj-core:3.23.1'
+
+    // For backward compatibility with JUnit 4 tests
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.junit.vintage:junit-vintage-engine:5.8.2'
+
+    // Cucumber for BDD
+    testImplementation 'io.cucumber:cucumber-java:7.16.1'
+    testImplementation 'io.cucumber:cucumber-junit:7.16.1'
 }
