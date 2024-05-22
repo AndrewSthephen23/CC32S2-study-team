@@ -1,5 +1,13 @@
 
-•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Á´ïJ$d65d28f4-d8e3-44b2-affe-3ed474e01948
-A
-java:S1659"Declare "q" on a separate line.(¥½Ì²şÿÿÿÿ8ãí£ºù1
-G	java:S106("+Replace this use of System.out by a logger.(©‹„8íí£ºù1
+‰
+java:S1192"FDefine a constant instead of duplicating this literal "attr2" 5 times.(Úšˆ¿8¹Ôİöù1J$d76feeca-e324-4e75-810c-66fd67013478
+‰
+java:S1192"FDefine a constant instead of duplicating this literal "attr1" 4 times.(Úšˆ¿8ºÔİöù1J$03255cac-cd1e-443a-8c71-cf2e1d95184e
+
+java:S1192"FDefine a constant instead of duplicating this literal "attr4" 3 times.(ø´“™ûÿÿÿÿ8ºÔİöù1J$8c7728e3-b08e-4caf-94f6-78897f50cc50
+
+java:S1192"FDefine a constant instead of duplicating this literal "attr3" 3 times.(ãËú‚ÿÿÿÿÿ8ºÔİöù1J$72836cb8-f6a7-4f6b-b136-18f784dff3a9
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Á´ï8½Ôİöù1J$e352e7aa-9b79-4661-8413-4e6b54d531a7
+g
+java:S1659%"Declare "q" on a separate line.(¥½Ì²şÿÿÿÿ8ŞÔİöù1J$9678e505-f3e3-4d87-9873-b5acf3a1c2dd
+r	java:S106?"+Replace this use of System.out by a logger.(‡Üßéşÿÿÿÿ8åÔİöù1J$ebe1a2e2-d4b2-425d-8c6b-9beaf9c851d9
