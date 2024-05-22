@@ -2,7 +2,7 @@
 <project version="4">
   <component name="SonarLintProjectSettings">
     <option name="bindingEnabled" value="true" />
-    <option name="projectKey" value="p2sprint" />
-    <option name="serverId" value="P2Sprint" />
+    <option name="projectKey" value="P1Sprint1" />
+    <option name="serverId" value="codP1Sprint1" />
   </component>
 </project>

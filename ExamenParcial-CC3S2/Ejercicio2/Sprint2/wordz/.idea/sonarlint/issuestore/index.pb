@@ -9,5 +9,3 @@ U
 %src/main/java/org/example/Letter.java,e\0\e02c6c370eadab3c50075dfcb49714e6d706ab08
 K
 src/test/java/WordTest.java,8\c\8c748900a4eff408ac788e935050eca949ceb450
-?
-settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
