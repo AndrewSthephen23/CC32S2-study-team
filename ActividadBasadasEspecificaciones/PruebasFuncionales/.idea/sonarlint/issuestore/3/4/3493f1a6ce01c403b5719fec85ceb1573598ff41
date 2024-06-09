@@ -1,0 +1,9 @@
+
+›	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(£Η²¤8¨ªΩϋ1J$ca005acf-7c3d-457c-a930-df678b63d247
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ήδ…Ρ8«ªΩϋ1J$2c43be8a-be22-43d9-bbf2-f068dd428c4f
+}
+java:S1118":Add a private constructor to hide the implicit public one.(ήδ…Ρ8ΊªΩϋ1J$9926dc36-8c33-4ace-8347-d23c959a7b1e
+i
+java:S1168"&Return an empty array instead of null.(¥Ήο8ΓªΩϋ1J$02abfc03-5cf6-455e-b693-da6b3df3ccb0
+i
+java:S1168$"&Return an empty array instead of null.(¥Ήο8ΙªΩϋ1J$ce2997fd-be75-4c91-b1a5-f4348c51feec

@@ -1,0 +1,36 @@
+[versions]
+assertj = "3.25.3"
+gson = "2.10.1"
+jackson = "2.17.0"
+junit = "5.11.0-M1"
+junit-platform = "1.11.0-M1"
+mockito = "5.11.0"
+retrofit = "2.11.0"
+
+[libraries]
+assertj = { module = "org.assertj:assertj-core", version.ref = "assertj" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+jackson = { module = "com.fasterxml.jackson.core:jackson-databind", version.ref = "jackson" }
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit" }
+junit-platform = { module = "org.junit.platform:junit-platform-launcher", version.ref = "junit-platform" }
+junit-vintage = { module = "org.junit.vintage:junit-vintage-engine", version.ref = "junit" }
+mockito-core = { module = "org.mockito:mockito-core", version.ref = "mockito" }
+mockito-junit = { module = "org.mockito:mockito-junit-jupiter", version.ref = "mockito" }
+retrofit-core = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+retrofit-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+
+[bundles]
+junit = [
+    "junit-jupiter",
+    "junit-platform",
+    "junit-vintage",
+]
+
+mockito = [
+    "mockito-core",
+    "mockito-junit",
+]
+
+[plugins]
+version-catalog-update = "nl.littlerobots.version-catalog-update:0.8.4"
+versions = "com.github.ben-manes.versions:0.51.0"
