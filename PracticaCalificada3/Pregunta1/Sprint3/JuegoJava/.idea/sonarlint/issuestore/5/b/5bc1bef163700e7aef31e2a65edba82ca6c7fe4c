@@ -1,0 +1,10 @@
+
+Ž
+java:S1192G"FDefine a constant instead of duplicating this literal "juego" 3 times.(¡À“öùÿÿÿÿ8É›Åíÿ1J$c7067e53-7723-46fd-a192-02833795704d
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùû…Öùÿÿÿÿ8Ïë®íÿ1J$4d5bec8b-bbfd-40b3-8fb8-32c8ea1d060b
+˜
+java:S11493"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ƒÿƒ—ùÿÿÿÿ8çë®íÿ1J$a044b256-dcc9-4355-9bc6-9246c6dd3f8d
+˜
+java:S11493"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ƒÿƒ—ùÿÿÿÿ8èë®íÿ1J$07be3133-fb4f-4d5f-a959-85bcdc84b06f
+ƒ	java:S125L"<This block of commented-out lines of code should be removed.(Ë¨¢úÿÿÿÿ8ðë®íÿ1J$7af107bf-7bb2-466e-bdcf-dadaa82e04d6
+r	java:S106Q"+Replace this use of System.out by a logger.(ß·¦¤ýÿÿÿÿ8òë®íÿ1J$0edad040-2c9c-404f-8f37-4ae290e93199

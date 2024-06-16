@@ -1,0 +1,8 @@
+
+m	java:S106-"+Replace this use of System.out by a logger.(­û¹Î8Íü”éÿ1J$3462b82c-b42f-43e8-901b-b3e50f9d7aa8
+r	java:S1064"+Replace this use of System.out by a logger.(Åëƒ¶úÿÿÿÿ8Ïü”éÿ1J$d0fcfd31-55b2-4ca3-bd23-45aa2098aeab
+r	java:S106:"+Replace this use of System.out by a logger.(«ˆ¼•ÿÿÿÿÿ8Ğü”éÿ1J$466c2692-e8d9-44a0-bbcf-403c6a99f166
+r	java:S106C"+Replace this use of System.out by a logger.(½“Ûæúÿÿÿÿ8Ñü”éÿ1J$78f3cfe4-a70a-46d8-96fa-bcba5e20f3e0
+m	java:S106E"+Replace this use of System.out by a logger.(Äèè×8Óü”éÿ1J$c6816845-f07b-43c5-a63a-bf5156df2a9c
+v
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8Êæèÿ1J$db885b3f-b5cc-42c8-a2d2-513a40b42620

@@ -1,0 +1,7 @@
+
+Ž
+java:S1192"FDefine a constant instead of duplicating this literal "juego" 3 times.(¡À“öùÿÿÿÿ8¡¹Ñëÿ1J$95d5a9ae-0e26-4df4-be23-e05e5976e8d5
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬©Ðóøÿÿÿÿ8èíñéÿ1J$f9b96755-2aa8-48c7-967e-5a43cbf413da
+~	java:S125"<This block of commented-out lines of code should be removed.(ö‡Æ„8¡ÿ·ëÿ1J$2d6f3c18-c656-47ea-86f4-2eeaabf729b9
+r	java:S106"+Replace this use of System.err by a logger.(ïù¯¯ûÿÿÿÿ8ûíñéÿ1J$4d1548f5-6fe3-418f-92a3-723d4367f3de
+r	java:S106"+Replace this use of System.out by a logger.(‡Üßéþÿÿÿÿ8ûíñéÿ1J$74809b13-e998-4686-95f6-d42a9afec5b8
