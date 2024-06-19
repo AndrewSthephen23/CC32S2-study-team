@@ -31,3 +31,5 @@ L
 src/main/java/LCOM/Main.java,1\8\18f47fd3cd68191a6fab4f01af04d5bbcfecf263
 X
 (src/main/java/LCOM4/LCOM4Calculator.java,5\b\5bc1bef163700e7aef31e2a65edba82ca6c7fe4c
+X
+(gradle/wrapper/gradle-wrapper.properties,f\b\fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
